@@ -3,15 +3,16 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer4 Minute</span>
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer4 Minute
+</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D.</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;"> </p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant	Professor	of	Radiology	
-Brigham	and	Women’s	Hospital	
-Harvard	Medical	School	</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+Brigham and Women’s Hospital
+Harvard Medical School</p>
 
 </div>
 
@@ -21,17 +22,11 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial	);</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial</span>
 
-<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-![Slicer4 minute tutorial	);](1_Slicer4minutetutorial.png)
-
-</div>
-
-<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
-
-<p>Slicer4 minute tutorial	);</p>
+<p>This tutorial is a 4-minute introduction to the 3D visualization capabilities of the Slicer5 software for medical image analysis. </p>
 
 </div>
 
@@ -41,11 +36,25 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer version 4.8	</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 software & dataset</span>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
+
+<p>*Download the Slicer5 software available at http://download.slicer.org</p><p></p><p>*Download the Slicer4minute dataset available at https://www.slicer.org/wiki/Documentation/4.10/Training</p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer version 5</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Slicer version 4.8	](2_3DSlicerversion48.png)
+![3D Slicer version 5](3_3DSlicerversion5.png)
 
 </div>
 
@@ -61,11 +70,25 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer version 4.8</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer Scene</span>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
+
+<p>*A Slicer scene is a MRML (Medical Reality Modeling Language) file that contains a list of elements loaded into Slicer (volumes, models, fiducials, transforms, etc.)</p><p>*In the following example, we use a scene 'Slicer4minute.mrml' composed of an MRI scan and 3D models of the head. </p><p>*The scene file and datasets have been saved as a MRB (Medical Reality Bundle) file. </p><p>*The MRB file format is Slicer's archive file format.</p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Loading the Slicer4minute dataset</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Slicer version 4.8](3_3DSlicerversion48.png)
+![Loading the Slicer4minute dataset](5_LoadingtheSlicer4minutedataset.png)
 
 </div>
 
@@ -85,47 +108,7 @@ Harvard	Medical	School	</p>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Slicer4minute Scene](4_Slicer4minuteScene.png)
-
-</div>
-
-<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
-
-<p></p>
-
-</div>
-
-</div>
-
----
-
-<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
-
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
-
-<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
-
-![3D Visualization](5_3DVisualization.png)
-
-</div>
-
-<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
-
-<p></p>
-
-</div>
-
-</div>
-
----
-
-<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
-
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
-
-<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
-
-![3D Visualization](6_3DVisualization.png)
+![Slicer4minute Scene](6_Slicer4minuteScene.png)
 
 </div>
 
@@ -161,11 +144,11 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D visualization</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Visualization](8_3DVisualization.png)
+![3D visualization](8_3Dvisualization.png)
 
 </div>
 
@@ -201,11 +184,11 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Anatomical views</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Anatomical views](10_Anatomicalviews.png)
+![3D Visualization](10_3DVisualization.png)
 
 </div>
 
@@ -241,17 +224,91 @@ Harvard	Medical	School	</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Anatomical Views</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Visualization](12_3DVisualization.png)
+![Anatomical Views](12_AnatomicalViews.png)
 
 </div>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
 
 <p></p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
+
+<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
+
+![3D Visualization](13_3DVisualization.png)
+
+</div>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
+
+<p></p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
+
+<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
+
+![3D Visualization](14_3DVisualization.png)
+
+</div>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
+
+<p></p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
+
+<div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
+
+![3D Visualization](15_3DVisualization.png)
+
+</div>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
+
+<p></p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial</span>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
+
+<p>*This tutorial was a short introduction on interactive 3D visualization of MRI data and 3D models in Slicer.</p><p></p><p>*The Slicer5 training compendium contains a series of tutorials and pre-computed datasets to learn how to use the software.</p>
 
 </div>
 
@@ -267,7 +324,7 @@ Harvard	Medical	School	</p>
 
 <div style="text-align: left;">
 
-<p>National Alliance for Medical Imaging Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p><p>Chan Zuckerberg Initiative</p><p>Essential Open Source for Science Grant #2022-252572 (5022)</p>
+<p>National Alliance for Medical Image</p><p>Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p>
 
 </div>
 
