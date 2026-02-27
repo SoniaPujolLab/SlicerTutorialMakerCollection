@@ -3,16 +3,16 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer em 4 Minutos
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer4 Minute
 </span>
 
 <p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D.</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;"> </p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professor Assistente de Radiologia
-Hospital Brigham and Women's
-Faculdade de Medicina de Harvard</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+Brigham and Women’s Hospital
+Harvard Medical School</p>
 
 </div>
 
@@ -26,7 +26,7 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Este tutorial é uma introdução de 4 minutos às capacidades de visualização 3D do software Slicer5 para análise de imagem médica. </p>
+<p>This tutorial is a 4-minute introduction to the 3D visualization capabilities of the Slicer5 software for medical image analysis. </p>
 
 </div>
 
@@ -36,11 +36,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Software Slicer5 e conjunto de dados</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 software & dataset</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Baixe o software Slicer5 disponível em http://download.slicer.org</p><p></p><p>*Baixe o conjunto de dados Slicer4minute disponível em https://www.slicer.org/wiki/Documentation/4.10/Training</p>
+<p>*Download the Slicer5 software available at http://download.slicer.org</p><p></p><p>*Download the Slicer4minute dataset available at https://www.slicer.org/wiki/Documentation/4.10/Training</p>
 
 </div>
 
@@ -50,11 +50,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer versão 5</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer version 5</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Slicer versão 5](3_3DSlicerversion5.png)
+![3D Slicer version 5](3_3DSlicerversion5.png)
 
 </div>
 
@@ -70,11 +70,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Cena 3D Slicer</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer Scene</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*A cena Slicer é um arquivo MRML (Medical Reality Modeling Language) que contém uma lista de elementos carregados em Slicer (volumes, modelos, fiduciais, transformas, etc.)</p><p>*No exemplo a seguir, usamos uma cena 'Slicer4minute.mrml' composta por uma varredura de RM e modelos 3D da cabeça.</p><p>*O arquivo de cena e conjuntos de dados foram salvos como um arquivo MRB (Medical Reality Bundle).</p><p>*O formato de arquivo MRB é o formato de arquivo Slicer.</p>
+<p>*A Slicer scene is a MRML (Medical Reality Modeling Language) file that contains a list of elements loaded into Slicer (volumes, models, fiducials, transforms, etc.)</p><p>*In the following example, we use a scene 'Slicer4minute.mrml' composed of an MRI scan and 3D models of the head. </p><p>*The scene file and datasets have been saved as a MRB (Medical Reality Bundle) file. </p><p>*The MRB file format is Slicer's archive file format.</p>
 
 </div>
 
@@ -84,11 +84,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Carregando o conjunto de dados Slicer4minute</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Loading the Slicer4minute dataset</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Carregando o conjunto de dados Slicer4minute](5_LoadingtheSlicer4minutedataset.png)
+![Loading the Slicer4minute dataset](5_LoadingtheSlicer4minutedataset.png)
 
 </div>
 
@@ -104,11 +104,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Cena Slicer em 4 minutos</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4minute Scene</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Cena Slicer em 4 minutos](6_Slicer4minuteScene.png)
+![Slicer4minute Scene](6_Slicer4minuteScene.png)
 
 </div>
 
@@ -144,11 +144,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Visualização 3D</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D visualization</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Visualização 3D](8_3Dvisualization.png)
+![3D visualization](8_3Dvisualization.png)
 
 </div>
 
@@ -224,11 +224,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Visões anatômicas</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Anatomical Views</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Visões anatômicas](12_AnatomicalViews.png)
+![Anatomical Views](12_AnatomicalViews.png)
 
 </div>
 
@@ -284,11 +284,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Visualização 3D</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Visualization</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Visualização 3D](15_3DVisualization.png)
+![3D Visualization](15_3DVisualization.png)
 
 </div>
 
@@ -304,11 +304,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial de 4 minutos do Slicer</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Este tutorial foi uma breve introdução na visualização 3D interativa de dados de RM e modelos 3D em Slicer.</p><p></p><p>*O Compêndio de treinamento Slicer5 contém uma série de tutoriais e conjuntos de dados pré-computados para aprender a usar o software.</p>
+<p>*This tutorial was a short introduction on interactive 3D visualization of MRI data and 3D models in Slicer.</p><p></p><p>*The Slicer5 training compendium contains a series of tutorials and pre-computed datasets to learn how to use the software.</p>
 
 </div>
 
@@ -320,11 +320,11 @@ Faculdade de Medicina de Harvard</p>
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Agradecimentos</span>
+# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Acknowledgements</span>
 
 <div style="text-align: left;">
 
-<p>Aliança Nacional para Computação de</p><p>Imagem Médica</p><p>NIH U54EB005149</p><p></p><p>Centro de Análise de Neuroimagem</p><p>NIH P41EB015902</p><p></p>
+<p>National Alliance for Medical Image</p><p>Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p>
 
 </div>
 
