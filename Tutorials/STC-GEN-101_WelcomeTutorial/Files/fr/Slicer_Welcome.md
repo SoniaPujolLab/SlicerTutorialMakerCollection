@@ -9,7 +9,7 @@
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">28/08/2024</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
 Brigham and Women’s Hospital
 Harvard Medical School
 </p>
@@ -31,7 +31,7 @@ Harvard Medical School
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">
 </p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
 
 Brigham and Women’s Hospital
 
@@ -56,7 +56,7 @@ Harvard Medical School
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
 
-<p>This tutorial is a short introduction to the Welcome module of the Slicer open-source software.</p>
+<p>Ce tutoriel est une courte introduction au module Welcome du logiciel open-source Slicer.</p>
 
 </div>
 
@@ -66,11 +66,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 Basics</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Notions de base Slicer5</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer is an open-source software for segmentation, registration and visualization of medical imaging data.</p><p>*The platform is developed through a multi-institution effort of several NIH funded large-scale consortia.</p><p>*Slicer is for medical research only, and is not FDA approved. </p>
+<p>*Slicer est un logiciel open-source dédié à la segmentation, au recalage et à la visualisation de données d’imagerie médicale.</p><p>*La plateforme est développée grâce à un effort multi-institutionnel impliquant plusieurs grands consortiums financés par le NIH.</p><p>*Slicer est destiné uniquement à la recherche médicale et n’est pas approuvé par la FDA. </p>
 
 </div>
 
@@ -80,11 +80,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 Basics</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Notions de base Slicer5</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>3D Slicer 5 version 5.10.0 includes over 100 modules and more than 190 extensions for image segmentation, registration and 3D visualization of medical imaging data.</p>
+<p>3D Slicer 5 version 5.10.0 comprend plus de 100 modules et plus de 190 extensions pour la segmentation d’images, le recalage et la visualisation 3D de données d’imagerie médicale.</p>
 
 </div>
 
@@ -100,7 +100,7 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer is a multi-platform software developed and maintained on Mac OSX, Linux and Windows.</p><p></p><p>*Slicer requires a minimum of 2 GB of RAM and a dedicated graphic accelerator with 64 MB of on-board graphic memory. </p>
+<p>*Slicer est un logiciel multiplateforme développé et maintenu sur Mac OS X, Linux et Windows.</p><p></p><p>*Slicer nécessite au minimum 2 Go de mémoire vive (RAM) ainsi qu’un accélérateur graphique dédié disposant de 64 Mo de mémoire vidéo embarquée.* </p>
 
 </div>
 
@@ -190,11 +190,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Sample Data</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Sample Data](10_SampleData.png)
+![Données exemples](10_SampleData.png)
 
 </div>
 
@@ -210,11 +210,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Sample Data</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Sample Data](11_SampleData.png)
+![Données exemples](11_SampleData.png)
 
 </div>
 
@@ -230,11 +230,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Sample Data</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Sample Data](12_SampleData.png)
+![Données exemples](12_SampleData.png)
 
 </div>
 
