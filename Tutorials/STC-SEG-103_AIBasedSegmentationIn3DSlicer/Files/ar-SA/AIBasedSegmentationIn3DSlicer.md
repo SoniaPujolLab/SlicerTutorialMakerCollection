@@ -5,7 +5,7 @@
 
 # <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">AI-based Segmentation in 3D Slicer</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph. D
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph. D. 
 Brigham and Women's Hospital,
 Harvard Medical School
 Boston, MA</p>
@@ -55,7 +55,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>A is an AI algorithm that was trained to perform a specific task (e.g. brain tumor segmentation model).</p><p></p><p>The Weights of an AI model are small numbers that determine how  much importance the model gives to different image features.</p><p></p><p>During the Training phase, a Model learns patterns from data labelled  by experts and adjusts its weights to improve its predictions.</p><p></p><p>During the Validation/Test phase, the model is evaluated on a separate set of data not used during the Training phase.</p><p></p><p>During Inference, the model is applied to new datasets to perform the specific task it was trained for.</p>
+<p>A Model is an AI algorithm that was trained to perform a specific task (e.g. brain tumor segmentation model).</p><p></p><p>The Weights of an AI model are small numbers that determine how much importance the model gives to different image features.</p><p></p><p>During the Training phase, a model learns patterns from data labelled by experts and adjusts its weights to improve its predictions.</p><p></p><p>During the Validation/Test phase, the model is evaluated on a separate set of data not used during the Training phase.</p><p></p><p>During Inference, the model is applied to new datasets to perform the specific task it was trained for.</p>
 
 </div>
 
@@ -65,11 +65,11 @@ June 30, 2025</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer AI Workshop</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer AI Tutorial</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>This tutorial focuses on running inference tasks using various pretrained AI models for automated segmentation of anatomical and pathological structures.</p>
+<p>This tutorial focuses on running inference tasks using various pre-trained AI models for automated segmentation of anatomical and pathological structures.</p>
 
 </div>
 
@@ -111,7 +111,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Segmentation Task #1: Prostate.</p><p></p><p></p><p>Segmentation Task #2: Brain Glioma.</p><p></p><p></p><p>Segmentation Task #3: Whole Body Segmentation.</p>
+<p>Segmentation Task #1: Prostate </p><p></p><p></p><p>Segmentation Task #2: Brain Glioma </p><p></p><p></p><p>Segmentation Task #3: Whole Body Segmentation</p>
 
 </div>
 
@@ -511,7 +511,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>The 3D SlicerMONAIAuto3DSeg extension provides fast AI-based segmentation of anatomical and pathological structures.</p><p></p><p></p><p>The module can run on standard laptop and desktop computers with no GPU.</p>
+<p>The 3D Slicer MONAIAuto3DSeg extension provides fast AI-based segmentation of anatomical and pathological structures.</p><p></p><p></p><p>The module can run on standard laptop and desktop computers with no GPU.</p>
 
 </div>
 
@@ -527,7 +527,7 @@ June 30, 2025</p>
 
 <div style="text-align: left;">
 
-<p>The 3D Slicer internationalization project and the 3D Slicer for Latin America project have been made possible by two CZI Essential  Open Source Software for Science (EOSS cycle 4 & 5) grants.</p>
+<p>The 3D Slicer internationalization project and the 3D Slicer for Latin America project have been made possible through funding by the Chan Zuckerberg Initiative.</p>
 
 </div>
 
