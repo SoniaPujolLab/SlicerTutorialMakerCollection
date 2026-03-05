@@ -3,7 +3,7 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">AI-based Segmentation in 3D Slicer</span>
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Segmentação baseada em IA no 3D Slicer</span>
 
 <p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph. D
 Brigham and Women's Hospital ,
@@ -23,7 +23,7 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Manual vs AI-powered Segmentation</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Segmentação Manual vs por IA</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -37,7 +37,7 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Manual vs AI-powered Segmentation</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Segmentação Manual vs por IA</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -55,7 +55,7 @@ Boston, MA</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>A Model is an AI algorithm that was trained to perform a specific task (e.g. brain tumor segmentation model).</p><p></p><p>The Weights of an AI model are small numbers that determine how much importance the model gives to different image features.</p><p></p><p>During the Training phase, a model learns patterns from data labelled by experts and adjusts its weights to improve its predictions.</p><p></p><p>During the Validation/Test phase, the model is evaluated on a separate set of data not used during the Training phase.</p><p></p><p>During Inference, the model is applied to new datasets to perform the specific task it was trained for.</p>
+<p>Um Modelo é um algoritmo de IA que foi treinado para executar uma tarefa específica (por exemplo, modelo de segmentação de tumor cerebral).</p><p></p><p>Os Pesos de um modelo de IA são números pequenos que determinam quanta importância o modelo dá a diferentes características da imagem.</p><p></p><p>Durante a fase de Treinamento, um modelo aprende padrões de dados rotulados por especialistas e ajusta seus pesos para melhorar suas previsões.</p><p></p><p>Durante a fase de Validação/Teste, o modelo é avaliado em um conjunto separado de dados não usados durante a fase de Treinamento.</p><p></p><p>Durante a Inferência, o modelo é aplicado a novos conjuntos de dados para executar a tarefa específica para a qual foi treinado.</p>
 
 </div>
 
@@ -65,11 +65,11 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer AI Tutorial</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial de IA do 3D Slicer</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>This tutorial focuses on running inference tasks using various pre-trained AI models for automated segmentation of anatomical and pathological structures.</p>
+<p>Este tutorial se concentra na execução de tarefas de inferência usando vários modelos de IA pré-treinados para segmentação automatizada de estruturas anatômicas e patológicas.</p>
 
 </div>
 
@@ -79,11 +79,11 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MONAIAuto3DSeg Slicer extension</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Extensão MONAIAuto3DSeg do Slicer</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>This tutorial uses the pre-trained models of the MONAIAuto3DSeg Slicer extension.</p><p></p><p></p><p>The tool is designed to work on laptops or on average desktop computer without a GPU.</p>
+<p>Este tutorial usa os modelos pré-treinados da extensão MONAIAuto3DSeg do Slicer.</p><p></p><p></p><p>A ferramenta foi projetada para funcionar em laptops ou computadores desktop médios sem GPU.</p>
 
 </div>
 
@@ -93,11 +93,11 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MONAIAuto3DSeg Slicer extension</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Extensão MONAIAuto3DSeg do Slicer</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Multiple modalities Support (CT, MRI).</p><p></p><p></p><p>Multiple anatomies (head, thorax, abdomen, pelvis, etc.).</p><p></p><p></p><p>Multiple pathologies (tumor, hemorrhage, edema).</p>
+<p>Suporte a múltiplas modalidades (TC, RM).</p><p></p><p></p><p>Múltiplas anatomias (cabeça, tórax, abdome, pelve, etc.).</p><p></p><p></p><p>Múltiplas patologias (tumor, hemorragia, edema).</p>
 
 </div>
 
@@ -107,11 +107,11 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer AI Tutorial: Segmentation Tasks</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial de IA do Slicer: Tarefas de Segmentação</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Segmentation Task #1: Prostate </p><p></p><p></p><p>Segmentation Task #2: Brain Glioma </p><p></p><p></p><p>Segmentation Task #3: Whole Body Segmentation</p>
+<p>Tarefa de Segmentação #1: Próstata</p><p></p><p></p><p>Tarefa de Segmentação #2: Glioma Cerebral</p><p></p><p></p><p>Tarefa de Segmentação #3: Segmentação de Corpo Inteiro</p>
 
 </div>
 
@@ -121,7 +121,7 @@ Boston, MA</p>
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">AI Segmentation Task #1: Prostate</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarefa de Segmentação por IA #1: Próstata</span>
 
 </div>
 
@@ -133,7 +133,7 @@ Boston, MA</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>AI-based Segmentation of Peripheral Zone (PZ) and Transition Zone (TZ) of the prostate on T2-weighted MRI Images.</p><p></p><p></p><p>Dataset:</p><p>msd_prostate_01-t2</p><p>msd_prostate_01-adc</p>
+<p>Segmentação baseada em IA da Zona Periférica (ZP) e Zona de Transição (ZT) da próstata em imagens de RM ponderadas em T2.</p><p></p><p></p><p>Conjunto de dados:</p><p>msd_prostate_01-t2</p><p>msd_prostate_01-adc</p>
 
 </div>
 
@@ -283,7 +283,7 @@ Boston, MA</p>
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">AI Segmentation Task #2: Brain Glioma</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarefa de Segmentação por IA #2: Glioma Cerebral</span>
 
 </div>
 
@@ -295,7 +295,7 @@ Boston, MA</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>AI-based Segmentation of Neoplasm, Necrosis and Edema in Brain MRI images.</p><p></p><p></p><p>Datasets:</p><p>1) BraTS-GLI_00005-000-t1n (T1-weighted)</p><p>2) BraTS-GLI_00005-000-t1c (T1-weighted post-Gd)</p><p>3) BraTS-GLI_00005-000-t2w (T2-weighted)</p><p>4) BraTS-GLI_00005-000-t2f (T2-FLAIR )</p>
+<p>Segmentação baseada em IA de Neoplasia, Necrose e Edema em imagens de RM cerebral.</p><p></p><p></p><p>Conjuntos de dados:</p><p>1) BraTS-GLI_00005-000-t1n (ponderado em T1)</p><p>2) BraTS-GLI_00005-000-t1c (ponderado em T1 pós-Gd)</p><p>3) BraTS-GLI_00005-000-t2w (ponderado em T2)</p><p>4) BraTS-GLI_00005-000-t2f (T2-FLAIR)</p>
 
 </div>
 
@@ -405,7 +405,7 @@ Boston, MA</p>
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">AI Segmentation Task #3: Whole Body Segmentation</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarefa de Segmentação por IA #3: Segmentação de Corpo Inteiro</span>
 
 </div>
 
@@ -417,7 +417,7 @@ Boston, MA</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>AI-based Segmentation of the whole body.</p><p></p><p></p><p>Dataset:</p><p>CT_ThoraxAbdomen</p>
+<p>Segmentação baseada em IA do corpo inteiro.</p><p></p><p></p><p>Conjunto de dados:</p><p>CT_ThoraxAbdomen</p>
 
 </div>
 
@@ -507,11 +507,11 @@ Boston, MA</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Conclusion</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Conclusão</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>The 3D Slicer MONAIAuto3DSeg extension provides fast AI-based segmentation of anatomical and pathological structures.</p><p></p><p></p><p>The module can run on standard laptop and desktop computers with no GPU.</p>
+<p>A extensão MONAIAuto3DSeg do 3D Slicer fornece segmentação rápida baseada em IA de estruturas anatômicas e patológicas.</p><p></p><p></p><p>O módulo pode ser executado em laptops e computadores desktop padrão sem GPU.</p>
 
 </div>
 
@@ -527,7 +527,7 @@ Boston, MA</p>
 
 <div style="text-align: left;">
 
-<p>The 3D Slicer internationalization project and the 3D Slicer for Latin America project have been made possible through funding by the Chan Zuckerberg Initiative.</p>
+<p>O projeto de internacionalização do 3D Slicer e o projeto 3D Slicer para América Latina foram possíveis através do financiamento da Chan Zuckerberg Initiative.</p>
 
 </div>
 
