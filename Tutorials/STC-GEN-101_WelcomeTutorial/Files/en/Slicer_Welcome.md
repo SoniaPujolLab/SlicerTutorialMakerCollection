@@ -29,8 +29,7 @@ Harvard Medical School
 
 <p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D.</p>
 
-<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">
-</p>
+<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">28/08/2024</p>
 
 <p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
 

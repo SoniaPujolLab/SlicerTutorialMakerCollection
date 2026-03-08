@@ -11,7 +11,9 @@
 </p>
 
 <p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+
 Brigham and Women’s Hospital
+
 Harvard Medical School
 </p>
 
@@ -29,15 +31,9 @@ Harvard Medical School
 
 <p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D.</p>
 
-<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">
-</p>
+<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">28/08/2024</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
-
-Brigham and Women’s Hospital
-
-Harvard Medical School
-</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">This tutorial introduces new users to the Slicer Welcome module, demonstrating basic navigation, sample data loading, and slice view interaction.</p>
 
 </div>
 
@@ -47,31 +43,17 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Goal</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Goal](2_Goal.png)
+![](2_Goal.png)
 
 </div>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
 
-<p>This tutorial is a short introduction to the Welcome module of the Slicer open-source software.</p>
-
-</div>
-
-</div>
-
----
-
-<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
-
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 Basics</span>
-
-<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
-
-<p>*Slicer is an open-source software for segmentation, registration and visualization of medical imaging data.</p><p>*The platform is developed through a multi-institution effort of several NIH funded large-scale consortia.</p><p>*Slicer is for medical research only, and is not FDA approved. </p>
+<p></p>
 
 </div>
 
@@ -109,11 +91,25 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Welcome to Slicer</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Title</span>
+
+<div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
+
+<p>Each module of Slicer includes a series of tabs, which give access to different functionalities.</p><p></p><p>Click on the arrow symbol to display the content of each tab. </p>
+
+</div>
+
+</div>
+
+---
+
+<div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
+
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Welcome to Slicer](6_WelcometoSlicer.png)
+![](6_WelcometoSlicer.png)
 
 </div>
 
@@ -129,11 +125,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer User Interface</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Slicer User Interface](7_SlicerUserInterface.png)
+![](7_SlicerUserInterface.png)
 
 </div>
 
@@ -169,11 +165,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Welcome Module</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Welcome Module](9_WelcomeModule.png)
+![](9_WelcomeModule.png)
 
 </div>
 
@@ -229,11 +225,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Sample Data</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Sample Data](12_SampleData.png)
+![](12_SampleData.png)
 
 </div>
 
@@ -249,11 +245,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Welcome Module</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Welcome Module](13_WelcomeModule.png)
+![](13_WelcomeModule.png)
 
 </div>
 
@@ -309,11 +305,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MR Brain Sample Dataset</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![MR Brain Sample Dataset](16_MRBrainSampleDataset.png)
+![](16_MRBrainSampleDataset.png)
 
 </div>
 
@@ -329,11 +325,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;"></span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Going Further](17_GoingFurther.png)
+![](17_GoingFurther.png)
 
 </div>
 
@@ -349,11 +345,11 @@ Harvard Medical School
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Acknowledgements</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>https://training.slicer.org/</p>
+<p>National Alliance for Medical Image</p><p>Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p><p>Chan Zuckerberg Initiative (CZI)</p>
 
 </div>
 
@@ -365,11 +361,11 @@ Harvard Medical School
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Acknowledgements</span>
+# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Acknowledgments</span>
 
 <div style="text-align: left;">
 
-<p>National Alliance for Medical Image</p><p>Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p><p>Chan Zuckerberg Initiative (CZI)</p>
+<p></p>
 
 </div>
 

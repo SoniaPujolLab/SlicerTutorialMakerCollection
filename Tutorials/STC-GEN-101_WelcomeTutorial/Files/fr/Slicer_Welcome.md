@@ -28,8 +28,7 @@ Harvard Medical School
 
 <p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph.D.</p>
 
-<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">
-</p>
+<p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">28/08/2024</p>
 
 <p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
 
@@ -56,7 +55,7 @@ Harvard Medical School
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify; margin-top: 25px;">
 
-<p>Ce tutoriel est une courte introduction au module Welcome du logiciel open-source Slicer.</p>
+<p>Ce tutoriel est une courte introduction au module Bienvenue du logiciel open-source Slicer.</p>
 
 </div>
 
@@ -150,11 +149,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Welcome</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Bienvenue</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Module Welcome](8_WelcomeModule.png)
+![Module Bienvenue](8_WelcomeModule.png)
 
 </div>
 
@@ -170,11 +169,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Welcome</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Bienvenue</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Module Welcome](9_WelcomeModule.png)
+![Module Bienvenue](9_WelcomeModule.png)
 
 </div>
 
@@ -190,11 +189,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Exemple de données</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Données exemples](10_SampleData.png)
+![Exemple de données](10_SampleData.png)
 
 </div>
 
@@ -210,11 +209,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Exemple de données</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Données exemples](11_SampleData.png)
+![Exemple de données](11_SampleData.png)
 
 </div>
 
@@ -230,11 +229,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Données exemples</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Exemple de données</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Données exemples](12_SampleData.png)
+![Exemple de données](12_SampleData.png)
 
 </div>
 
@@ -250,11 +249,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Welcome</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Module Bienvenue</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Module Welcome](13_WelcomeModule.png)
+![Module Bienvenue](13_WelcomeModule.png)
 
 </div>
 
@@ -330,11 +329,11 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Pour aller plus loin</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Going Further](17_GoingFurther.png)
+![Pour aller plus loin](17_GoingFurther.png)
 
 </div>
 
@@ -350,7 +349,7 @@ le compendium de formation et les pages de documentation de la version 4.8 de 3D
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Pour aller plus loin</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
