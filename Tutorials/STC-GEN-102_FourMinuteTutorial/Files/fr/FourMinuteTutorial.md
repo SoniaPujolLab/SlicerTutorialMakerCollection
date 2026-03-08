@@ -12,7 +12,7 @@
 Brigham and Women’s Hospital
 Harvard Medical School	</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
 Brigham and Women’s Hospital
 Harvard Medical School</p>
 
@@ -24,11 +24,11 @@ Harvard Medical School</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutoriel Slicer4 minute</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>This tutorial is a 4-minute introduction to the 3D visualization capabilities of the Slicer5 software for medical image analysis. </p>
+<p>Ce tutoriel est une introduction de 4 minutes aux capacités de visualisation 3D du logiciel Slicer5 pour l’analyse d’images médicales. </p>
 
 </div>
 
@@ -38,11 +38,11 @@ Harvard Medical School</p>
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 software & dataset</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Logiciel et jeu de données Slicer5</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Download the Slicer5 software available at http://download.slicer.org</p><p></p><p>*Download the Slicer4minute dataset available at https://www.slicer.org/wiki/Documentation/4.10/Training</p>
+<p>*Téléchargez le logiciel Slicer5 disponible à l’adresse http://download.slicer.org</p><p></p><p>*Téléchargez le jeu de données Slicer4minute disponible à l’adresse </p><p>https://www.slicer.org/wiki/Documentation/4.10/Training</p>
 
 </div>
 
@@ -77,7 +77,7 @@ La scène contient une IRM ainsi que des modèles de surface 3D du cerveau.	</sp
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*A Slicer scene is a MRML (Medical Reality Modeling Language) file that contains a list of elements loaded into Slicer (volumes, models, fiducials, transforms, etc.)</p><p>*In the following example, we use a scene 'Slicer4minute.mrml' composed of an MRI scan and 3D models of the head. </p><p>*The scene file and datasets have been saved as a MRB (Medical Reality Bundle) file. </p><p>*The MRB file format is Slicer's archive file format.</p>
+<p>*Une scène Slicer est un fichier MRML (Medical Reality Modeling Language) qui contient une liste d’éléments chargés dans Slicer (volumes, modèles, repères, transformations, etc.)</p><p>*Dans l’exemple suivant, nous utilisons une scène « Slicer4minute.mrml » composée d’une IRM et de modèles 3D de la tête.</p><p>*Le fichier de scène et les jeux de données ont été enregistrés sous forme de fichier MRB (Medical Reality Bundle).</p><p>*Le format de fichier MRB est le format d’archive de Slicer.</p>
 
 </div>
 
@@ -87,11 +87,11 @@ La scène contient une IRM ainsi que des modèles de surface 3D du cerveau.	</sp
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Loading the Slicer4minute dataset</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Chargement du jeu de données Slicer4minute</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Loading the Slicer4minute dataset](5_LoadingtheSlicer4minutedataset.png)
+![Chargement du jeu de données Slicer4minute](5_LoadingtheSlicer4minutedataset.png)
 
 </div>
 
@@ -147,11 +147,11 @@ La scène contient une IRM ainsi que des modèles de surface 3D du cerveau.	</sp
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D visualization</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Visualisation 3D</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D visualization](8_3Dvisualization.png)
+![Visualisation 3D](8_3Dvisualization.png)
 
 </div>
 
@@ -227,11 +227,11 @@ La scène contient une IRM ainsi que des modèles de surface 3D du cerveau.	</sp
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Anatomical Views</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Vues anatomiques</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Anatomical Views](12_AnatomicalViews.png)
+![Vues anatomiques](12_AnatomicalViews.png)
 
 </div>
 
@@ -307,11 +307,11 @@ La scène contient une IRM ainsi que des modèles de surface 3D du cerveau.	</sp
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer4 minute tutorial</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutoriel Slicer4 minute</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*This tutorial was a short introduction on interactive 3D visualization of MRI data and 3D models in Slicer.</p><p></p><p>*The Slicer5 training compendium contains a series of tutorials and pre-computed datasets to learn how to use the software.</p>
+<p>*Ce tutoriel était une courte introduction à la visualisation 3D interactive des données IRM et des modèles 3D dans Slicer.</p><p></p><p>*Le compendium de formation Slicer5 contient une série de tutoriels et de jeux de données pré-calculés pour apprendre à utiliser le logiciel.</p>
 
 </div>
 
