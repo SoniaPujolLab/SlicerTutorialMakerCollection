@@ -3,13 +3,15 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Basics of Data Loading and 3D Visualization in 3D Slicer</span>
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Notions de base sur le chargement de données et la visualisation 3D dans 3D Slicer</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Author: Sonia Pujol, Ph.D.</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Auteur : Sonia Pujol, Ph.D.</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">24/11/2024</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology Brigham and Women’s Hospital Harvard Medical School</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
+Brigham and Women’s Hospital
+Harvard Medical School</p>
 
 </div>
 
@@ -19,7 +21,7 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Overall Goal</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Objectif global</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -33,11 +35,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Learning Objectives</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Objectifs d’apprentissage</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p> • Following this tutorial, you will be able</p><p></p><p>• to load and visualize DICOM images in Slicer</p><p></p><p>• to perform volume rendering of CT data</p><p></p><p>• to load and visualize 3D models reconstructed from MRI data</p>
+<p> • À la suite de ce tutoriel, vous serez capable :</p><p></p><p>• de charger et visualiser des images DICOM dans Slicer</p><p></p><p>• de réaliser un rendu volumique des données CT</p><p></p><p>• de charger et visualiser des modèles 3D reconstruits à partir de données IRM</p>
 
 </div>
 
@@ -51,7 +53,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer version 5.10</p><p></p><p>•  3D VisualizationDataSet.zip</p>
+<p>• 3D Slicer version 5.10</p><p></p><p>• 3D VisualizationDataSet.zip</p>
 
 </div>
 
@@ -65,7 +67,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>The file 3DVisualizationDataset.zip contains two directories:</p><p></p><p>- dataset1_Thorax_Abdomen </p><p>- dataset2_Head</p><p></p><p>Unzip the file 3DVisualizationDataset.zip on your computer to access the datasets</p>
+<p>Le fichier 3DVisualizationDataset.zip contient deux répertoires :</p><p></p><p>- dataset1_Thorax_Abdomen</p><p>- dataset2_Head</p><p></p><p>Décompressez le fichier 3DVisualizationDataset.zip sur votre ordinateur pour accéder aux jeux de données</p>
 
 </div>
 
@@ -79,7 +81,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer is a free open source software application distributed under a BSD style license. </p><p></p><p></p><p>• The software is not FDA approved or CE-Marked, and is for research use only.</p><p>Tutorial Outline</p>
+<p>• 3D Slicer est un logiciel libre et open source, distribué sous une licence de type BSD.</p><p></p><p></p><p>• Le logiciel n’est pas approuvé par la FDA ni marqué CE, et est destiné uniquement à un usage de recherche.</p><p>Plan du tutoriel</p>
 
 </div>
 
@@ -93,7 +95,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>•  Part 1: Loading and Viewing DICOM data</p><p></p><p>•  Part 2: Volume Rendering</p><p></p><p></p><p>• Part 3: Loading and Viewing 3D models</p>
+<p>• Partie 1 : Chargement et visualisation des données DICOM</p><p></p><p>• Partie 2 : Rendu volumique</p><p></p><p></p><p>• Partie 3 : Chargement et visualisation des modèles 3D</p>
 
 </div>
 
@@ -103,7 +105,7 @@
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Part 1: DICOM Data Loading</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Partie 1 : Chargement des données DICOM</span>
 
 </div>
 
@@ -371,7 +373,7 @@
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Part 2: Volume Rendering</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Partie 2 : Rendu volumique</span>
 
 </div>
 
@@ -383,7 +385,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• Volume rendering </p><p>techniques enable 3D </p><p>visualization of 3D </p><p>datasets</p><p></p><p>• The Volume Rendering </p><p>module in Slicer enables </p><p>interactive 3D visualization </p><p>of DICOM images</p>
+<p>• Les techniques de rendu volumique permettent la visualisation 3D de jeux de données tridimensionnels</p><p></p><p>• Le module Rendu volumique de Slicer permet la visualisation 3D interactive des images DICOM</p>
 
 </div>
 
@@ -573,8 +575,7 @@
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Part 3: Loading and 
-viewing 3D models
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Partie 3 : Chargement et visualisation des modèles 3D
 </span>
 
 </div>
@@ -587,7 +588,7 @@ viewing 3D models
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• The directory dataset2_Head contains the Slicer scene called Head_scene.mrb</p><p></p><p>• The scene contains 3D models from the SPL brain atlas developed by the department of Radiology at Brigham and Women’s Hospital, Harvard Medical School (NIH P41 RR013218, NIH R01 MH05074)</p>
+<p>• Le répertoire dataset2_Head contient la scène Slicer appelée Head_scene.mrb</p><p></p><p>• La scène contient des modèles 3D issus de l’atlas cérébral SPL développé par le département de radiologie du Brigham and Women’s Hospital, Harvard Medical School (NIH P41 RR013218, NIH R01 MH05074)</p>
 
 </div>
 
@@ -601,7 +602,7 @@ viewing 3D models
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Slicer stores all loaded data in a repository called a scene</p><p></p><p></p><p>Each data set, such as an image volume, surface model, or point set, is represented as a node in a Slicer scene.</p><p></p><p></p><p>All Slicer modules operate on the data stored in a Slicer scene.</p>
+<p>Slicer stocke toutes les données chargées dans un dépôt appelé scène.</p><p></p><p></p><p>Chaque jeu de données, comme un volume d’image, un modèle de surface ou un ensemble de points, est représenté par un nœud dans une scène Slicer.</p><p></p><p></p><p>Tous les modules de Slicer fonctionnent sur les données stockées dans une scène Slicer.</p>
 
 </div>
 
@@ -815,7 +816,7 @@ viewing 3D models
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer provides advanced functionalities for loading and viewing 3D medical imaging data</p><p></p><p>• The tutorial demonstrates how to use volume </p><p>rendering and 3D surface modeling for </p><p>interactive visualization of CT and MRI data</p><p></p><p></p><p>Contact: spujol@bwh.harvard.edu</p>
+<p>• 3D Slicer offre des fonctionnalités avancées pour le chargement et la visualisation de données d’imagerie médicale 3D.</p><p></p><p>• Le tutoriel montre comment utiliser le rendu volumique et la modélisation de surface 3D pour la visualisation interactive des données CT et IRM.</p><p></p><p></p><p>Contact : spujol@bwh.harvard.edu</p>
 
 </div>
 
