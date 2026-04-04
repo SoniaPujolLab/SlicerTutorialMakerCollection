@@ -11,8 +11,10 @@
 </p>
 
 <p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professor Assistente de Radiologia
-Hospital Brigham and Women's
-Faculdade de Medicina de Harvard
+
+Brigham and Women’s Hospital
+
+Harvard Medical School
 </p>
 
 </div>
@@ -61,7 +63,7 @@ Faculdade de Medicina de Harvard
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer é um software de código aberto para segmentação, registo e visualização de dados de imagens médicas. </p><p>*A plataforma foi desenvolvida por meio de um esforço multi-institucional, com vários consórcios de grande escala financiados pelo NIH.</p><p>*O Slicer destina-se exclusivamente à pesquisa médica e não possui aprovação da FDA. </p>
+<p>3D Slicer 5 versão 5.10.0 inclui mais de 100 módulos e mais de 190 extensões para segmentação de imagem, registo e visualização 3D de dados de imagiologia médica.</p>
 
 </div>
 
@@ -75,7 +77,7 @@ Faculdade de Medicina de Harvard
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>O 3D Slicer 5 versão 5.10.0 inclui mais que 100 módulos e mais que 190 extensões para segmentação de imagens, registo e visualização 3D de dados de imagens médicas.</p>
+<p>*Slicer é um software multi plataforma desenvolvido e mantido em Mac OSX, Linux and Windows.</p><p></p><p>*Slicer requer um mínimo de 2 GB of RAM e um acelerador gráfico dedicado com 64 MB de memória gráfica na placa. </p>
 
 </div>
 
@@ -305,11 +307,11 @@ Faculdade de Medicina de Harvard
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Indo Mais Além</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![Going Further](16_GoingFurther.png)
+![Indo Mais Além](16_GoingFurther.png)
 
 </div>
 
@@ -325,7 +327,7 @@ Faculdade de Medicina de Harvard
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Going Further</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Indo Mais Além</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -341,11 +343,11 @@ Faculdade de Medicina de Harvard
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Acknowledgements</span>
+# <span style="font-size: 4.5rem; margin-bottom: 40px; display: block; border-bottom: 2px solid rgba(255, 255, 255, 0.3); padding-bottom: 20px;">Agradecimentos</span>
 
 <div style="text-align: left;">
 
-<p>https://training.slicer.org/</p>
+<p>National Alliance for Medical Image</p><p>Computing</p><p>NIH U54EB005149</p><p></p><p>Neuroimage Analysis Center</p><p>NIH P41EB015902</p><p></p><p>Chan Zuckerberg Initiative (CZI)</p>
 
 </div>
 
