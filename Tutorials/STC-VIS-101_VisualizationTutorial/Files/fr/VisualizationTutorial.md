@@ -9,9 +9,7 @@
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">24/11/2024</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie
-Brigham and Women’s Hospital
-Harvard Medical School</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professeur adjoint en radiologie Brigham and Women’s Hospital Harvard Medical School</p>
 
 </div>
 
@@ -81,7 +79,7 @@ Harvard Medical School</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer est un logiciel libre et open source, distribué sous une licence de type BSD.</p><p></p><p></p><p>• Le logiciel n’est pas approuvé par la FDA ni marqué CE, et est destiné uniquement à un usage de recherche.</p><p>Plan du tutoriel</p>
+<p>• 3D Slicer est un logiciel libre et open source, distribué sous une licence de type BSD.</p><p></p><p></p><p>• Le logiciel n’est pas approuvé par la FDA ni marqué CE, et est destiné uniquement à un usage de recherche.</p><p></p>
 
 </div>
 
