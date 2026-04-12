@@ -40,7 +40,7 @@ Harvard Medical School</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Téléchargez le logiciel Slicer5 disponible à l’adresse http://download.slicer.org</p><p></p><p>*Téléchargez le jeu de données Slicer4minute disponible à l’adresse </p><p>https://www.slicer.org/wiki/Documentation/4.10/Training</p>
+<p>*Téléchargez le logiciel Slicer5 disponible à l’adresse http://download.slicer.org</p><p></p><p>*Téléchargez le jeu de données Slicer4minute disponible à l’adresse https://www.slicer.org/wiki/Documentation/4.10/Training</p>
 
 </div>
 
