@@ -3,13 +3,13 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">أساسيات تحميل البيانات والتصور ثلاثي الأبعاد في 3D Slicer</span>
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Basics of Data Loading and 3D Visualization in 3D Slicer</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">المؤلف: دكتورة سونيا بوجول</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Author: Sonia Pujol, Ph.D.</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">24/11/2024</p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">أستاذ مساعد في علم الأشعة، مستشفى بريغهام للنساء، كلية الطب بجامعة هارفارد</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Assistant Professor of Radiology Brigham and Women’s Hospital Harvard Medical School</p>
 
 </div>
 
@@ -19,11 +19,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">الهدف الكلي</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Overall Goal</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>تُعد هذه الدورة التعليمية مقدمة لأساسيات تحميل وعرض صور DICOM والنماذج ثلاثية الأبعاد في 3D Slicer.</p>
+<p>This tutorial is an introduction to the basics of loading and viewing DICOM images and 3D models in 3D Slicer.</p>
 
 </div>
 
@@ -33,11 +33,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">الأهداف التعليمية</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Learning Objectives</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p> • بعد إكمال هذا الدرس، ستكون قادرًا على:</p><p></p><p>• تحميل وعرض صور DICOM في 3D Slicer</p><p></p><p>• تنفيذ التصيير الحجمي (Volume Rendering) لبيانات CT</p><p></p><p>• تحميل وعرض نماذج ثلاثية الأبعاد مُعاد بناؤها من بيانات MRI</p>
+<p> • Following this tutorial, you will be able</p><p></p><p>• to load and visualize DICOM images in Slicer</p><p></p><p>• to perform volume rendering of CT data</p><p></p><p>• to load and visualize 3D models reconstructed from MRI data</p>
 
 </div>
 
@@ -47,11 +47,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">محتويات الدورة</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial materials</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer إصدار 5.10</p><p></p><p>• ملف ‎3D VisualizationDataSet.zip‎ (حزمة بيانات التصور ثلاثي الأبعاد)</p>
+<p>• 3D Slicer version 5.10</p><p></p><p>•  3D VisualizationDataSet.zip</p>
 
 </div>
 
@@ -61,11 +61,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">بيانات الدورة</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial dataset</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>يحتوي الملف ‎3DVisualizationDataset.zip‎ على مجلدين:</p><p></p><p>‎dataset1_Thorax_Abdomen‎ (الصدر والبطن)</p><p>‎dataset2_Head‎ (الرأس)</p><p></p><p>قم بفك ضغط الملف ‎3DVisualizationDataset.zip‎ على جهازك للوصول إلى مجموعات البيانات</p>
+<p>The file 3DVisualizationDataset.zip contains two directories:</p><p></p><p>- dataset1_Thorax_Abdomen </p><p>- dataset2_Head</p><p></p><p>Unzip the file 3DVisualizationDataset.zip on your computer to access the datasets</p>
 
 </div>
 
@@ -75,7 +75,7 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">إخلاء المسؤولية</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Disclaimer</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -583,7 +583,7 @@ viewing 3D models
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">بيانات الدورة</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Tutorial dataset</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
