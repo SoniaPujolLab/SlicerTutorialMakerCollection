@@ -5,15 +5,15 @@
 
 # <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Segmentación basada en IA en 3D Slicer</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol, Ph. D. 
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Dra. Sonia Pujol.
 Brigham and Women's Hospital,
-Harvard Medical School
+Facultad de Medicina de Harvard
 Boston, MA</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;"> </p>
 
-<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Slicer Ribeirão Preto Workshop
-June 30, 2025</p>
+<p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Taller Slicer Ribeirão Preto
+30 de Junio de 2025</p>
 
 </div>
 
@@ -27,7 +27,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Medical images have traditionally been manually segmented, which is a time-consuming process that requires intensive effort by radiologists and is subject to inter-reader variability.</p>
+<p>Las imágenes médicas han sido segmentadas tradicionalmente de forma manual, lo que es un proceso que consume mucho tiempo, requiere un gran esfuerzo por parte de los radiólogos y está sujeto a variabilidad entre lectores.</p>
 
 </div>
 
@@ -83,7 +83,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Este tutorial utiliza los modelos pre‐entrenados de la extensión MONAIAuto3DSeg Slicer.</p><p></p><p></p><p>La herramienta está diseñada para funcionar en portátiles o en equipos de sobremesa convencionales sin tarjeta gráfica.</p>
+<p>Este tutorial utiliza los modelos pre‐entrenados de la extensión MONAIAuto3DSeg Slicer.</p><p></p><p></p><p>La herramienta está diseñada para funcionar en portátiles o en equipos convencionales sin tarjeta gráfica.</p>
 
 </div>
 
@@ -111,7 +111,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Tarea de segmentación n.° 1: Próstata</p><p></p><p></p><p>Tarea de segmentación n.° 2: Glioma cerebral</p><p></p><p></p><p>Tarea de segmentación n.° 3: Segmentación de todo el cuerpo</p>
+<p>Tarea de segmentación #1: Próstata</p><p></p><p></p><p>Tarea de segmentación # 2: Glioma cerebral</p><p></p><p></p><p>Tarea de segmentación #3: Segmentación de todo el cuerpo</p>
 
 </div>
 
@@ -283,7 +283,7 @@ June 30, 2025</p>
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarea de segmentación por IA n.° 2: Glioma cerebral</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarea de segmentación por IA #2: Glioma cerebral</span>
 
 </div>
 
@@ -405,7 +405,7 @@ June 30, 2025</p>
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarea de segmentación por IA n.° 3: Segmentación del cuerpo completo</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Tarea de segmentación por IA #3: Segmentación del cuerpo completo</span>
 
 </div>
 
@@ -511,7 +511,7 @@ June 30, 2025</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>La extensión MONAIAuto3DSeg de 3D Slicer proporciona una segmentación rápida de estructuras anatómicas y patológicas basada en IA.</p><p></p><p></p><p>El módulo puede ejecutarse en ordenadores portátiles y de sobremesa estándar sin GPU.</p>
+<p>La extensión MONAIAuto3DSeg de 3D Slicer proporciona una segmentación rápida de estructuras anatómicas y patológicas basada en IA.</p><p></p><p></p><p>El módulo puede ejecutarse en ordenadores portátiles y de escritorio estándar sin necesidad de GPU.</p>
 
 </div>
 
@@ -527,7 +527,7 @@ June 30, 2025</p>
 
 <div style="text-align: left;">
 
-<p>El proyecto de internacionalización de 3D Slicer y el proyecto 3D Slicer para Latinoamérica han sido posibles gracias a la financiación de la Iniciativa Chan Zuckerberg.</p>
+<p>El proyecto de internacionalización de 3D Slicer y el proyecto 3D Slicer para Latinoamérica han sido posibles gracias al financiamiento de la Iniciativa Chan Zuckerberg.</p>
 
 </div>
 
