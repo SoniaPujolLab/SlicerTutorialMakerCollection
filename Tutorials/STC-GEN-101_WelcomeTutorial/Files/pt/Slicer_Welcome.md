@@ -63,7 +63,7 @@ Harvard Medical School
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>3D Slicer 5 versão 5.10.0 inclui mais de 100 módulos e mais de 190 extensões para segmentação de imagem, registo e visualização 3D de dados de imagiologia médica.</p>
+<p>3D Slicer 5 versão 5.10.0 inclui mais que 100 módulos e mais que 190 extensões para segmentação de imagem, registo e visualização 3D de dados de imagiologia médica.</p>
 
 </div>
 
