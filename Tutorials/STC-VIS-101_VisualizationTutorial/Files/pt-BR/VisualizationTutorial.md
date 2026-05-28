@@ -65,7 +65,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>O arquivo 3DVisualizationDataset.zip contém</p><p>dois diretórios:</p><p>-dataset1_Thorax_Abdomen</p><p>-dataset2_Head</p><p></p><p>Descompactar o arquivo 3DVisualizationDataset.zip em</p><p>seu computador para acessar os conjuntos de dados</p>
+<p>O arquivo 3DVisualizationDataset.zip contém dois diretórios:</p><p></p><p>-dataset1_Thorax_Abdomen</p><p>-dataset2_Head</p><p></p><p>Descompactar o arquivo 3DVisualizationDataset.zip em seu computador para acessar os conjuntos de dados</p>
 
 </div>
 
@@ -79,7 +79,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• O 3D Slicer é um software de código aberto gratuito distribuído sob uma licença no estilo BSD.</p><p>• O software não possui aprovação da FDA nem marcação CE, e é apenas para uso em pesquisa.</p>
+<p>• O 3D Slicer é um software de código aberto gratuito distribuído sob uma licença no estilo BSD.</p><p></p><p></p><p>• O software não possui aprovação da FDA nem marcação CE, e é apenas para uso em pesquisa.</p><p></p>
 
 </div>
 
@@ -93,7 +93,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Parte 1: Carregando e visualizando dados DICOM</p><p></p><p>Parte 2: Renderização de volume</p><p></p><p>Parte 3: Carregando e visualizando modelos 3D</p>
+<p>Parte 1: Carregando e visualizando dados DICOM</p><p></p><p>Parte 2: Renderização de volume</p><p></p><p></p><p>Parte 3: Carregando e visualizando modelos 3D</p>
 
 </div>
 
