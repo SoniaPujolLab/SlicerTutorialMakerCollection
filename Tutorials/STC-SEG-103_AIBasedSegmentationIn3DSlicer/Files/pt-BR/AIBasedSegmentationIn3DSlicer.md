@@ -41,7 +41,7 @@ Boston, MA</p>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Na última década, a segmentação de imagem tem sido alimentada pelo desenvolvimento de algoritmos de aprendizagem profunda (por exemplo, nnUnet pelo Centro Alemão de Pesquisa de Câncer (DKFZ)/Helmholtz Research).</p><p>As ferramentas de segmentação alimentadas por IA podem reduzir o tempo de segmentação e proporcionar resultados mais reprodutíveis.</p>
+<p>Na última década, a segmentação de imagem tem sido alimentada pelo desenvolvimento de algoritmos de aprendizagem profunda (por exemplo, nnUnet pelo Centro Alemão de Pesquisa de Câncer (DKFZ)/Helmholtz Research).</p><p></p><p></p><p>As ferramentas de segmentação alimentadas por IA podem reduzir o tempo de segmentação e proporcionar resultados mais reprodutíveis.</p>
 
 </div>
 
