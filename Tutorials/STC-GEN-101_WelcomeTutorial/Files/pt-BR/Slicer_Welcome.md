@@ -61,7 +61,7 @@ Faculdade de Medicina de Harvard
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer é um software de código aberto para segmentação, registro e visualização de dados de imagens médicas. </p><p>*A plataforma foi desenvolvida por meio de um esforço multi-institucional, com vários consórcios de grande escala financiados pelo NIH.</p><p>*O Slicer destina-se exclusivamente à pesquisa médica e não possui aprovação da FDA. </p>
+<p>*Slicer é um software de código aberto para segmentação, registro e visualização de dados de imagens médicas. </p><p>*A plataforma foi desenvolvida por meio de um esforço multi-institucional, com vários consórcios de grande escala financiados pelo NIH.</p><p>*O Slicer destina-se exclusivamente à pesquisa médica e não possui aprovação da FDA.</p>
 
 </div>
 
@@ -75,7 +75,7 @@ Faculdade de Medicina de Harvard
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>O 3D Slicer 5 versão 5.10.0 inclui mais de 100 módulos e mais de 190 extensões para segmentação de imagens, registro e visualização 3D de dados de imagens médicas.</p>
+<p>*O Slicer é um software multiplataforma desenvolvido e mantido para Mac OSX, Linux e Windows.</p><p></p><p>*O Slicer requer no mínimo 2 GB de RAM e uma placa de vídeo dedicada com 64 MB de memória gráfica integrada. </p>
 
 </div>
 
