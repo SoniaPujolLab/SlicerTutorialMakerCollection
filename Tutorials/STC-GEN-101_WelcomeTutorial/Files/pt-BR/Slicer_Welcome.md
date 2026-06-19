@@ -11,7 +11,9 @@
 </p>
 
 <p style="font-size: 2.1rem; line-height: 1.8; font-weight: 300; opacity: 0.9; max-width: 700px; margin: 0 auto;">Professor Assistente de Radiologia
+
 Hospital Brigham and Women's
+
 Faculdade de Medicina de Harvard
 </p>
 
@@ -61,7 +63,7 @@ Faculdade de Medicina de Harvard
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer é um software de código aberto para segmentação, registro e visualização de dados de imagens médicas. </p><p>*A plataforma foi desenvolvida por meio de um esforço multi-institucional, com vários consórcios de grande escala financiados pelo NIH.</p><p>*O Slicer destina-se exclusivamente à pesquisa médica e não possui aprovação da FDA.</p>
+<p>O 3D Slicer 5 versão 5.10.0 inclui mais de 100 módulos e mais de 190 extensões para segmentação de imagens, registro e visualização 3D de dados de imagens médicas.</p>
 
 </div>
 
