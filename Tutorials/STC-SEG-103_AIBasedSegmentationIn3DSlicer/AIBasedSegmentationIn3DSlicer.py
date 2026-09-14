@@ -230,7 +230,9 @@ class Slicer4MinuteTest(ScriptedLoadableModuleTest):
         modMenu = combo.parent().children()[4]
         combo.showPopup()
         for mActions in modMenu.actions():
-            if mActions.text == translate("qSlicerAbstractCoreModule","Segmentation") or mActions.text == "Segmentation":
+            # Only a category opens a submenu. Some languages (e.g. Chinese) give the Segmentations module
+            # and the Segmentation category the same label, and the module entry comes first in the menu.
+            if mActions.menu() and (mActions.text == translate("qSlicerAbstractCoreModule","Segmentation") or mActions.text == "Segmentation"):
                 segAction = mActions
                 modMenu.setActiveAction(segAction)
                 mainWindow.moduleSelector().selectModule('MONAIAuto3DSeg')
