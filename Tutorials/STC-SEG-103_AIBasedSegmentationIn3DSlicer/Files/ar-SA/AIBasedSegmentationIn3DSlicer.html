@@ -1,0 +1,649 @@
+ <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>AIBasedSegmentationIn3DSlicer</title>
+                        </head>
+                        <body>
+                            
+            <div class="cover">
+                <div class="coverContent">
+                    <h1 class="coverTitle">التجزئة المعتمدة على الذكاء الاصطناعي في 3D Slicer</h1>
+                    <p class="coverAuthor">سونيا بوجول، دكتوراه.
+مستشفى بريغهام والنساء،
+كلية الطب بجامعة هارفارد
+بوسطن، ماساتشوستس</p>
+                    <p class="coverDate"> </p>
+                    <p class="coverDescription">ورشة عمل Slicer ريبيراو بريتو
+30 يونيو 2025</p>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">التقسيم اليدوي مقابل التقسيم المدعوم بالذكاء الاصطناعي</h2>
+                    <div class="textBody"><p>عادة ما يتم تقسيم الصور الطبية يدويًا، وهي عملية تستغرق وقتًا طويلاً وتتطلب جهدًا مكثفًا من قبل أطباء الأشعة وتخضع لتباين بين القراء.</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">التقسيم اليدوي مقابل التقسيم المدعوم بالذكاء الاصطناعي</h2>
+                    <div class="textBody"><p>في العقد الماضي، تم تعزيز تجزئة الصور من خلال تطوير خوارزميات التعلم العميق (مثل nnUnet من قبل المركز الألماني لأبحاث السرطان (DKFZ)/مركز هيلمهولتز للأبحاث).</p><p></p><p></p><p>يمكن لأدوات التجزئة المدعومة بالذكاء الاصطناعي تقليل وقت التجزئة وتوفير نتائج أكثر قابلية للتكرار.</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">مصطلحات الذكاء الاصطناعي</h2>
+                    <div class="textBody"><p>النموذج هو خوارزمية ذكاء اصطناعي تم تدريبها لأداء مهمة محددة (مثل نموذج تقسيم ورم الدماغ).</p><p></p><p>أوزان نموذج الذكاء الاصطناعي هي أرقام صغيرة تحدد مدى الأهمية التي يوليها النموذج لميزات الصورة المختلفة.</p><p></p><p>خلال مرحلة التدريب، يتعلم النموذج الأنماط من البيانات المصنفة بواسطة الخبراء ويعدل أوزانه لتحسين تنبؤاته.</p><p></p><p>خلال مرحلة التحقق/الاختبار، يتم تقييم النموذج على مجموعة منفصلة من البيانات لم تستخدم خلال مرحلة التدريب.</p><p></p><p>خلال مرحلة الاستدلال، يتم تطبيق النموذج على مجموعات بيانات جديدة لأداء المهمة المحددة التي تم تدريبه عليها.</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">دليل 3D Slicer للذكاء الاصطناعي</h2>
+                    <div class="textBody"><p>يركز هذا البرنامج التعليمي على تشغيل مهام الاستدلال باستخدام نماذج الذكاء الاصطناعي المختلفة المدربة مسبقًا للتجزئة الآلية للهياكل التشريحية والمرضية.</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">إضافة MONAIAuto3DSeg Slicer</h2>
+                    <div class="textBody"><p>يستخدم هذا البرنامج التعليمي النماذج المدربة مسبقًا لملحق MONAIAuto3DSeg Slicer.</p><p></p><p></p><p> تم تصميم الأداة للعمل على أجهزة الكمبيوتر المحمولة أو على أجهزة الكمبيوتر المكتبية متوسطة الإمكانات بدون وحدة معالجة رسومات (GPU).</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">إضافة MONAIAuto3DSeg Slicer</h2>
+                    <div class="textBody"><p>دعم أساليب التصوير المتعددة (الأشعة المقطعية، الرنين المغناطيسي).</p><p></p><p></p><p>تشريح متعدد (رأس، صدر، بطن، حوض، إلخ).</p><p></p><p></p><p>أمراض متعددة (ورم، نزيف، وذمة).</p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">البرنامج التعليمي لـ Slicer AI: مهام التجزئة</h2>
+                    <div class="textBody"><p>مهمة التجزئة رقم 1: البروستاتا</p><p></p><p></p><p>مهمة التجزئة رقم 2: ورم الدماغ الدبقي</p><p></p><p></p><p>مهمة التجزئة رقم 3: تجزئة الجسم بالكامل</p></div>
+                </div>
+            </div>
+        
+            <div class="sectionSlide">
+                <div class="sectionContent">
+                    <h1 class="sectionTitle">مهمة تجزئة الذكاء الاصطناعي رقم 1: البروستاتا</h1>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle"> </h2>
+                    <div class="textBody"><p>تقسيم المناطق المحيطية (PZ) والمناطق الانتقالية (TZ) للبروستاتا المعتمد على الذكاء الاصطناعي في صور الرنين المغناطيسي T2.</p><p></p><p></p><p>مجموعة البيانات:</p><p>msd_prostate_01-t2</p><p>msd_prostate_01-adc</p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="10_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="11_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="12_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="13_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="14_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="15_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="16_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="sectionSlide">
+                <div class="sectionContent">
+                    <h1 class="sectionTitle">مهمة تجزئة الذكاء الاصطناعي رقم 2: ورم دبقي في الدماغ</h1>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle"> </h2>
+                    <div class="textBody"><p>التقسيم المستند إلى الذكاء الاصطناعي للأورام والغرغرينا والوذمة في صور الرنين المغناطيسي للدماغ.</p><p></p><p></p><p>مجموعات البيانات:</p><p>1) BraTS-GLI_00005-000-t1n (المرجحة T1)</p><p>2) BraTS-GLI_00005-000-t1c (المرجحة T1 بعد Gd)</p><p>3) BraTS-GLI_00005-000-t2w (المرجحة T2)</p><p>4) BraTS-GLI_00005-000-t2f (المرجحة T2-FLAIR)</p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="19_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="20_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="21_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="22_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="23_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="sectionSlide">
+                <div class="sectionContent">
+                    <h1 class="sectionTitle">مهمة تجزئة الذكاء الاصطناعي رقم 3: تجزئة الجسم بالكامل</h1>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle"> </h2>
+                    <div class="textBody"><p>التجزئة الشاملة للجسم بالاعتماد على الذكاء الاصطناعي.</p><p></p><p></p><p>مجموعة البيانات:</p><p>CT_ThoraxAbdomen</p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="26_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="27_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="28_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="slide">
+                <div class="slideContent">
+                    <h2 class="slideTitle"></h2>
+                    <div class="containerImage">
+                        <img class="slideImage" src="29_slide.png" alt="">
+                    </div>
+                    <div class="slideDescription"><p></p></div>
+                </div>
+            </div>
+        
+            <div class="textSlide">
+                <div class="textContent">
+                    <h2 class="textTitle">الخلاصة</h2>
+                    <div class="textBody"><p>يوفر ملحق 3D Slicer MONAIAuto3DSeg تجزئة سريعة قائمة على الذكاء الاصطناعي للهياكل التشريحية والمرضية.</p><p></p><p></p><p>يمكن تشغيل الوحدة على أجهزة الكمبيوتر المحمولة والمكتبية القياسية التي لا تحتوي على وحدة معالجة رسومات (GPU).</p></div>
+                </div>
+            </div>
+        
+            <div class="backCover">
+                <div class="backCoverContent">
+                    <h1 class="coverTitle">شكر وتقدير</h1>
+                    <ul class="coverAcknowledgments">
+                        <li><div class='ackItem'><p>لقد أصبح مشروع تدويل 3D Slicer ومشروع 3D Slicer لأمريكا اللاتينية ممكنين بفضل تمويل من مبادرة تشان زوكربيرج.</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        
+                        </body>
+                        <style>
+                            
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        /* Slide Containers */
+        .slide, .cover, .backCover, .sectionSlide, .textSlide, .blankSlide {
+            background: white;
+            max-width: 1200px;
+            margin: 30px auto;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            page-break-after: always;
+            page-break-inside: avoid;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Stacked content */
+        .slideContent, .textContent, .blankContent {
+            flex: 1 1 0;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        /* Centered content */
+        .coverContent, .backCoverContent, .sectionContent {
+            flex: 0 1 auto;
+            min-height: 0;
+            overflow: hidden;
+            padding: 40px;
+        }
+
+        /* Cover Page */
+        .cover {
+            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .coverContent {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .coverTitle {
+            font-size: 5.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .coverAuthor {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+
+        .coverDate {
+            font-size: 2rem;
+            font-weight: 300;
+            margin-bottom: 40px;
+            opacity: 0.85;
+        }
+
+        .coverDescription {
+            font-size: 2.1rem;
+            line-height: 1.8;
+            font-weight: 300;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Regular Slides */
+        .slideTitle {
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: #003366;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #003366;
+        }
+
+        .containerImage {
+            flex: 1 1 0;
+            min-height: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: #fafafa;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .slideImage {
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
+            height: auto;
+            object-fit: contain;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .slideDescription {
+            font-size: 2rem;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+            margin-top: 10px;
+        }
+
+        /* Back Cover */
+        .backCover {
+            background: linear-gradient(135deg, #004d99 0%, #003366 100%);
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .backCoverContent {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .backCover .coverTitle {
+            font-size: 4.5rem;
+            margin-bottom: 40px;
+            text-align: center;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            padding-bottom: 20px;
+        }
+
+        .coverAcknowledgments {
+            list-style: none;
+            padding: 0;
+        }
+
+        .coverAcknowledgments li {
+            margin-bottom: 25px;
+        }
+
+        .ackItem {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 4px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .ackItem strong {
+            display: block;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .ackItem p {
+            font-size: 1.9rem;
+            line-height: 1.6;
+            opacity: 0.9;
+            margin: 0;
+        }
+
+        /* Section Slide */
+        .sectionSlide {
+            background: linear-gradient(135deg, #003366 0%, #004d99 100%);
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sectionTitle {
+            font-size: 5.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        /* Text Slide */
+        .textSlide {
+            background: white;
+        }
+
+        .textTitle {
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: #003366;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #003366;
+        }
+
+        .textBody {
+            font-size: 2rem;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+        }
+
+        /* Blank Slide */
+        .blankSlide {
+            background: white;
+        }
+
+        .blankTitle {
+            font-size: 3.5rem;
+            font-weight: 600;
+            color: #003366;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #003366;
+        }
+
+        .blankBody {
+            font-size: 2rem;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+        }
+
+        /* Print Styles */
+        @media print {
+            * {
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .slide, .cover, .backCover, .sectionSlide, .textSlide, .blankSlide {
+                max-width: none;
+                width: 297mm;
+                height: 148.5mm;
+                margin: 0;
+                box-shadow: none;
+                border-radius: 0;
+                overflow: hidden;
+            }
+
+            .slideContent, .textContent, .blankContent {
+                overflow: hidden;
+            }
+        }
+
+        @page {
+            size: 297mm 148.5mm;
+            margin: 0;
+        }
+    
+                        </style>
+                        <script>
+                        function fitSlides() {
+                            var specs = [
+                                { container: '.slideContent', texts: ['.slideTitle', '.slideDescription'], scaleUp: false },
+                                { container: '.textContent',  texts: ['.textTitle', '.textBody'], scaleUp: true },
+                                { container: '.blankContent', texts: ['.blankBody'], scaleUp: true }
+                            ];
+
+                            specs.forEach(function(spec) {
+                                document.querySelectorAll(spec.container).forEach(function(el) {
+                                    var textEls = spec.texts
+                                        .map(function(s) { return el.querySelector(s); })
+                                        .filter(Boolean);
+                                    if (!textEls.length) return;
+
+                                    // reset any previous inline font-size
+                                    textEls.forEach(function(t) { t.style.fontSize = ''; });
+
+                                    // Step 1: capture constrained dimensions
+                                    var rect      = el.getBoundingClientRect();
+                                    var available = rect.height;
+                                    var elWidth   = rect.width;
+                                    if (available <= 0 || elWidth <= 0) return;
+
+                                    // Step 2: clone off-screen with the SAME width → accurate natural height
+                                    function measure(source) {
+                                        var c = source.cloneNode(true);
+                                        c.style.cssText = [
+                                            'position:fixed',
+                                            'top:-99999px',
+                                            'left:-99999px',
+                                            'width:' + elWidth + 'px',
+                                            'height:auto',
+                                            'min-height:0',
+                                            'overflow:visible',
+                                            'flex:none',
+                                            'visibility:hidden'
+                                        ].join(';');
+                                        document.body.appendChild(c);
+                                        var h = c.getBoundingClientRect().height;
+                                        document.body.removeChild(c);
+                                        return h;
+                                    }
+
+                                    var natural = measure(el);
+
+                                    // Step 3: scale UP if text-only slide has significant empty space
+                                    if (spec.scaleUp && natural < available * 0.9) {
+                                        var upRatio = (available * 0.95) / natural;
+                                        textEls.forEach(function(t) {
+                                            var fs = parseFloat(window.getComputedStyle(t).fontSize);
+                                            t.style.fontSize = (fs * upRatio) + 'px';
+                                        });
+                                        natural = measure(el);
+                                    }
+
+                                    if (natural <= available) return;
+
+                                    // Step 4: single-shot scale down
+                                    var ratio = available / natural;
+                                    textEls.forEach(function(t) {
+                                        var fs = parseFloat(window.getComputedStyle(t).fontSize);
+                                        t.style.fontSize = Math.max(fs * ratio, 6) + 'px';
+                                    });
+
+                                    // Step 5: one correction pass for line-height rounding
+                                    var after = measure(el);
+                                    if (after > available) {
+                                        var ratio2 = available / after;
+                                        textEls.forEach(function(t) {
+                                            var fs = parseFloat(window.getComputedStyle(t).fontSize);
+                                            t.style.fontSize = Math.max(fs * ratio2, 6) + 'px';
+                                        });
+                                    }
+                                });
+                            });
+                        }
+
+                        document.addEventListener('DOMContentLoaded', function() {
+                            requestAnimationFrame(function() {
+                                requestAnimationFrame(fitSlides);
+                            });
+                        });
+                        window.addEventListener('beforeprint', fitSlides);
+                        </script>
+                        </html>
+                    
