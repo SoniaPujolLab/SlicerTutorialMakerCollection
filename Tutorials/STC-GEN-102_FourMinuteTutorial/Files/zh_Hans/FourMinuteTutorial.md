@@ -3,10 +3,10 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer4 Minute
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer 四分钟入门
 </span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">索尼娅·普约尔，博士</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol 博士</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;"> </p>
 
@@ -22,11 +22,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 4分钟教程</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 四分钟教程</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>本教程是一段时长4分钟的视频，旨在介绍用于医学图像分析的Slicer5软件的3D可视化功能。</p>
+<p>本教程用四分钟介绍 Slicer 5 在医学影像分析中的三维可视化功能。 </p>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 软件及数据集</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 5 软件及数据集</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -50,11 +50,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer 5版</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer 5 版</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![3D Slicer 5版](3_3DSlicerversion5.png)
+![3D Slicer 5 版](3_3DSlicerversion5.png)
 
 </div>
 
@@ -74,7 +74,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer 场景是一个 MRML（医学现实建模语言）文件，其中包含加载到 Slicer 中的元素列表（体素、模型、定位标志、变换等）。</p><p>*在下面的示例中，我们使用了一个名为“Slicer4minute.mrml”的场景，该场景由 MRI 扫描数据和头部的 3D 模型组成。</p><p>*该场景文件和数据集已保存为 MRB（医疗现实捆绑包）文件。 </p><p>*MRB 文件格式是 Slicer 的归档文件格式。</p>
+<p>*Slicer 场景由 MRML 文件描述，其中列出了加载到 Slicer 的体数据、模型、标记点和变换等。</p><p>*以下示例使用 Slicer4minute.mrml 场景，其中包含头部 MRI 和三维模型。</p><p>*场景文件及数据已打包成一个 MRB 场景包。</p><p>*MRB 是 Slicer 的归档格式。</p>
 
 </div>
 
@@ -224,11 +224,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">解剖图</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">解剖视图</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![解剖图](12_AnatomicalViews.png)
+![解剖视图](12_AnatomicalViews.png)
 
 </div>
 
@@ -304,11 +304,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 4分钟教程</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 四分钟教程</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*本教程简要介绍了如何在 Slicer 中对 MRI 数据和 3D 模型进行交互式 3D 可视化。</p><p></p><p>*《Slicer5 培训手册》包含一系列教程和预处理数据集，用于学习如何使用该软件。</p>
+<p>*本教程简要介绍了如何在 Slicer 中交互查看 MRI 数据和三维模型。</p><p></p><p>*Slicer 5 教程汇编提供一系列教程和预先生成的数据集，便于练习操作。</p>
 
 </div>
 
