@@ -5,7 +5,7 @@
 
 # <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">3D Slicer 中数据加载与 3D 可视化的基础知识</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">作者：索尼娅·普霍尔 博士</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">作者：Sonia Pujol 博士</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">2024年11月24日</p>
 
@@ -37,7 +37,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p> • 按照本教程操作，您将能够</p><p></p><p>• 在 Slicer 中加载并显示 DICOM 图像</p><p></p><p>• 对 CT 数据进行体积渲染</p><p></p><p>• 加载并显示由 MRI 数据重建的 3D 模型</p>
+<p> • 按照本教程操作，您将能够</p><p></p><p>• 在 Slicer 中加载并显示 DICOM 图像</p><p></p><p>• 对 CT 数据进行体渲染</p><p></p><p>• 加载并显示由 MRI 数据重建的 3D 模型</p>
 
 </div>
 
@@ -61,7 +61,7 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">数据集教程</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">教程数据集</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -93,7 +93,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>•  第 1 部分：加载和查看 DICOM 数据</p><p></p><p>•  第 2 部分：体积渲染</p><p></p><p></p><p>• 第 3 部分：加载和查看 3D 模型</p>
+<p>•  第 1 部分：加载和查看 DICOM 数据</p><p></p><p>•  第 2 部分：体渲染</p><p></p><p></p><p>• 第 3 部分：加载和查看 3D 模型</p>
 
 </div>
 
@@ -111,11 +111,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">加载 DICOM 体积数据</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">加载 DICOM 体数据</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![加载 DICOM 体积数据](8_LoadingaDICOMvolume.png)
+![加载 DICOM 体数据](8_LoadingaDICOMvolume.png)
 
 </div>
 
@@ -131,11 +131,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">加载 DICOM 体积数据</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">加载 DICOM 体数据</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![加载 DICOM 体积数据](9_LoadingaDICOMvolume.png)
+![加载 DICOM 体数据](9_LoadingaDICOMvolume.png)
 
 </div>
 
@@ -371,7 +371,7 @@
 
 <div style="text-align: center; padding: 60px; background: linear-gradient(135deg, #003366 0%, #004d99 100%); color: white; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); margin: 30px auto; max-width: 1200px; min-height: 600px; display: flex; align-items: center; justify-content: center;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">第2部分：体积渲染</span>
+# <span style="font-size: 5.5rem; font-weight: 700; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">第 2 部分：体渲染</span>
 
 </div>
 
@@ -379,11 +379,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 体积渲染</p><p>技术可实现对三维</p><p>数据集的</p><p>三维可视化</p><p></p><p>• Slicer 中的体积渲染</p><p>模块支持</p><p>对 DICOM 图像进行</p><p>交互式三维可视化</p>
+<p>• 体渲染可将三维数据集直观地显示出来。</p><p></p><p>• Slicer 的「体渲染」模块支持 DICOM 图像的交互式三维显示。</p>
 
 </div>
 
@@ -393,11 +393,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](23_VolumeRendering.png)
+![体渲染](23_VolumeRendering.png)
 
 </div>
 
@@ -413,11 +413,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](24_VolumeRendering.png)
+![体渲染](24_VolumeRendering.png)
 
 </div>
 
@@ -433,11 +433,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](25_VolumeRendering.png)
+![体渲染](25_VolumeRendering.png)
 
 </div>
 
@@ -453,11 +453,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](26_VolumeRendering.png)
+![体渲染](26_VolumeRendering.png)
 
 </div>
 
@@ -473,11 +473,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](27_VolumeRendering.png)
+![体渲染](27_VolumeRendering.png)
 
 </div>
 
@@ -493,11 +493,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](28_VolumeRendering.png)
+![体渲染](28_VolumeRendering.png)
 
 </div>
 
@@ -513,11 +513,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](29_VolumeRendering.png)
+![体渲染](29_VolumeRendering.png)
 
 </div>
 
@@ -533,11 +533,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](30_VolumeRendering.png)
+![体渲染](30_VolumeRendering.png)
 
 </div>
 
@@ -553,11 +553,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体积渲染</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">体渲染</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![体积渲染](31_VolumeRendering.png)
+![体渲染](31_VolumeRendering.png)
 
 </div>
 
@@ -583,7 +583,7 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">数据集教程</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">教程数据集</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
@@ -597,11 +597,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">切片场景</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer 场景</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>Slicer 将所有加载的数据存储在一个称为“场景”的存储库中</p><p></p><p></p><p>每个数据集（例如图像体积、曲面模型或点集）在 Slicer 场景中都以节点的形式表示。</p><p></p><p></p><p>所有 Slicer 模块都是基于存储在 Slicer 场景中的数据进行操作的。</p>
+<p>Slicer 将加载的数据存放在场景中。</p><p></p><p></p><p>每个体数据、表面模型或点集等数据对象，都对应场景中的一个节点。</p><p></p><p></p><p>Slicer 的各个模块都对场景中的数据进行操作。</p>
 
 </div>
 
@@ -815,7 +815,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>• 3D Slicer 提供了用于加载和查看 3D 医学影像数据的高级功能</p><p></p><p>• 本教程演示了如何利用体积渲染和 3D 表面建模技术，对 CT 和 MRI 数据进行交互式可视化</p><p></p><p></p><p>联系方式：spujol@bwh.harvard.edu</p>
+<p>• 3D Slicer 支持加载和查看三维医学影像数据。</p><p></p><p>• 本教程演示了如何通过体渲染和三维表面模型交互查看 CT 和 MRI 数据。</p><p></p><p></p><p>联系方式：spujol@bwh.harvard.edu</p>
 
 </div>
 
