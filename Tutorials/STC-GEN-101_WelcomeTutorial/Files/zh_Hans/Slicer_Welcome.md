@@ -3,9 +3,9 @@
 
 <div style="max-width: 800px;">
 
-# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">Slicer 欢迎</span>
+# <span style="font-size: 5.5rem; font-weight: 700; margin-bottom: 30px; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); display: block;">欢迎使用 Slicer</span>
 
-<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">索尼娅·普约尔，博士</p>
+<p style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px; opacity: 0.95;">Sonia Pujol 博士</p>
 
 <p style="font-size: 2rem; font-weight: 300; margin-bottom: 40px; opacity: 0.85;">
 </p>
@@ -45,11 +45,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 基础知识</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer 5 基础</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer 是一款用于医学影像数据分割、配准和可视化的开源软件。</p><p>*该平台是由多个由美国国立卫生研究院（NIH）资助的大型联盟通过多机构合作开发的。</p><p>*Slicer 仅用于医学研究，尚未获得美国食品药品监督管理局（FDA）的批准。</p>
+<p>*Slicer 是用于医学影像数据分割、配准和可视化的开源软件。</p><p>*该平台由多家机构合作开发，得到美国国立卫生研究院（NIH）资助的多个大型研究联盟支持。</p><p>*Slicer 仅供医学研究使用，未获美国食品药品监督管理局（FDA）批准。 </p>
 
 </div>
 
@@ -59,11 +59,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">Slicer5 基础知识</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">3D Slicer 5 基础</span>
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>3D Slicer 5 5.10.0 版本包含 100 多个模块和 190 多个扩展，用于医学影像数据的图像分割、配准和 3D 可视化。</p>
+<p>3D Slicer 5.10.0 包含 100 多个模块和 190 多个扩展，用于医学影像分割、配准及三维可视化。</p>
 
 </div>
 
@@ -77,7 +77,7 @@
 
 <div style="font-size: 2rem; line-height: 1.8; color: #444; text-align: justify;">
 
-<p>*Slicer 是一款在 Mac OS X、Linux 和 Windows 平台上开发和维护的多平台软件。</p><p></p><p>*Slicer 至少需要 2 GB 内存，以及一块配备 64 MB 板载显存的独立显卡。</p>
+<p>*Slicer 是一款在 Mac OS X、Linux 和 Windows 平台上开发和维护的多平台软件。</p><p></p><p>*Slicer 至少需要 2 GB 内存，以及一块配备 64 MB 板载显存的独立显卡。 </p>
 
 </div>
 
@@ -247,11 +247,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MR脑组织样本数据集</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">脑部 MRI 示例数据集</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![MR脑组织样本数据集](13_MRBrainSampleDataset.png)
+![脑部 MRI 示例数据集](13_MRBrainSampleDataset.png)
 
 </div>
 
@@ -267,11 +267,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MR脑组织样本数据集</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">脑部 MRI 示例数据集</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![MR脑组织样本数据集](14_MRBrainSampleDataset.png)
+![脑部 MRI 示例数据集](14_MRBrainSampleDataset.png)
 
 </div>
 
@@ -287,11 +287,11 @@
 
 <div style="background: white; max-width: 1200px; margin: 30px auto; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); padding: 40px;">
 
-## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">MR脑组织样本数据集</span>
+## <span style="color: #003366; font-size: 3.5rem; font-weight: 600; display: block; margin-bottom: 30px; padding-bottom: 15px; border-bottom: 3px solid #003366;">脑部 MRI 示例数据集</span>
 
 <div style="text-align: center; margin: 30px 0; background: #fafafa; padding: 20px; border-radius: 4px;">
 
-![MR脑组织样本数据集](15_MRBrainSampleDataset.png)
+![脑部 MRI 示例数据集](15_MRBrainSampleDataset.png)
 
 </div>
 
